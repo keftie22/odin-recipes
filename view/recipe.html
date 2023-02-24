@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="/view/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="/view/css/bootstrap_5_3.css" />
-    <link rel="icon" href="/view/img/burger-32.png">
+    <link rel="icon" href="/view/img/burger-32.png" />
     <script
       type="text/javascript"
       src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"
@@ -32,29 +32,33 @@
   </head>
   <body>
     <script>
-        document.write("<h1>" + data.title + "</h1>");
-        //image + description
-        document.write(
-            "<img src='../view/img/" + data.image + "' alt='" + data.title + 
-            "' style='max-width:25rem; max-height:25rem;" + "' />"
-        );
-        
-        document.write("<h2>Decription</h2>");
-        document.write("<p>" + data.description + "</p>");
-        //ingredients + steps
-        document.write("<h2>Ingredients</h2>");
-        document.write("<ul>");
-        $.each(data.ingredients, function (key, val) {
-            document.write("<li>" + val + "</li>");
-        });
-        document.write("</ul>");
+      document.write("<h1>" + data.title + "</h1>");
+      //image + description
+      document.write(
+        "<img src='../view/img/" +
+          data.image +
+          "' alt='" +
+          data.title +
+          "' style='max-width:25rem; max-height:25rem;" +
+          "' />"
+      );
 
-        document.write("<h2>Steps</h2>");
-        document.write("<ol>");
-        $.each(data.steps, function (key, val) {
-            document.write("<li>" + val + "</li>");
-        });
-        document.write("</ol>");
+      document.write("<h2>Description</h2>");
+      document.write("<p>" + data.description + "</p>");
+      //ingredients + steps
+      document.write("<h2>Ingredients</h2>");
+      document.write("<ul>");
+      $.each(data.ingredients, function (key, val) {
+        document.write("<li>" + val + "</li>");
+      });
+      document.write("</ul>");
+
+      document.write("<h2>Steps</h2>");
+      document.write("<ol>");
+      $.each(data.steps, function (key, val) {
+        document.write("<li>" + val + "</li>");
+      });
+      document.write("</ol>");
     </script>
   </body>
 </html>
