@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="/view/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/view/css/bootstrap_5_3.css" />
+    <link rel="icon" href="/view/img/burger-32.png">
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"
+    ></script>
+    <script>
+      const url = new URL(window.location.toLocaleString());
+      const recipeId = url.searchParams.get("id");
+      var recipe = "";
+      $.ajax({
+        url: "/data/recipes.json",
+        async: false,
+        dataType: "json",
+        success: function (data) {
+          $.each(data, function (key, val) {
+            if (val.id == recipeId) {
+              recipe = JSON.stringify(val);
+            }
+          });
+        },
+      });
+      var data = JSON.parse(recipe);
+      //page title
+      document.write("<title>" + data.title + " recipe</title>");
+    </script>
+  </head>
+  <body>
+    <script>
+        document.write("<h1>" + data.title + "</h1>");
+        //image + description
+        document.write(
+            "<img src='../view/img/" + data.image + "' alt='" + data.title + 
+            "' style='max-width:25rem; max-height:25rem;" + "' />"
+        );
+        
+        document.write("<h2>Decription</h2>");
+        document.write("<p>" + data.description + "</p>");
+        //ingredients + steps
+        document.write("<h2>Ingredients</h2>");
+        document.write("<ul>");
+        $.each(data.ingredients, function (key, val) {
+            document.write("<li>" + val + "</li>");
+        });
+        document.write("</ul>");
+
+        document.write("<h2>Steps</h2>");
+        document.write("<ol>");
+        $.each(data.steps, function (key, val) {
+            document.write("<li>" + val + "</li>");
+        });
+        document.write("</ol>");
+    </script>
+  </body>
+</html>
