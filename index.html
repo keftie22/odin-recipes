@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="/view/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="/view/css/bootstrap_5_3.css" />
-    <link rel="icon" href="/view/img/burger-32.png">
+    <link rel="icon" href="/view/img/burger-32.png" />
     <script
       type="text/javascript"
       src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"
@@ -19,7 +19,16 @@
         $.getJSON("/data/recipes.json", function (data) {
           var items = [];
           $.each(data, function (key, val) {
-            items.push("<li id='" + key + "'>" + "<a href='/view/recipe.html?id=" + val.id +"'>" + val.title + "</li>");
+            items.push(
+              "<li id='" +
+                key +
+                "'>" +
+                "<a href='/view/recipe.html?id=" +
+                val.id +
+                "'>" +
+                val.title +
+                "</li>"
+            );
           });
           $("<ul/>", {
             class: "my-new-list",
