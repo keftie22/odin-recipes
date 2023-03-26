@@ -51,5 +51,28 @@
       "Spread 3/4 cup of sauce in a 9x13-inch baking dish. Cover with 3 uncooked lasagna noodles, 1 3/4 cups of cheese mixture, and 1/4 cup sauce; repeat layers once more. Top with remaining 3 noodles, sauce, mozzarella, and Parmesan cheese. Pour 1/2 cup water along the edges of the dish. Cover tightly with aluminum foil.",
       "Bake in the preheated oven for 45 minutes. Uncover and bake for an additional 10 minutes. Let stand 10 minutes before serving."
     ]
+  },
+  {
+    "id": 3,
+    "title": "Spaghetti Bolognese",
+    "description": "The secret ingredient in this ultrafast sauce based on long-cooking Bolognese is Worcestershire sauce. -Dawn Perry",
+    "image": "spaghetbolog.jpg",
+    "ingredients":[
+      "Kosher Salt and black pepper",
+      "2 tablespoons olive oil",
+      "1 medium yellow onion, finely chopped",
+      "2 cloves garlic, finely chopped",
+      "1/2 pound ground beef",
+      "12 ounces spaghetti",
+      "1/2 cup tomato paste",
+      "2 teaspoons Worcestershire sauce",
+      "Grated Parmesan"
+    ],
+    "steps":[
+      "Bring a large pot of salted water to a boil. Heat oil in a large skillet over medium-high. Add onion, garlic and ½ teaspoon salt and cook, stirring often, until beginning to soften, 3 minutes. Add beef and cook, breaking up with a wooden spoon, until no longer pink, about 3 minutes.",
+      "Add pasta to the pot and cook according to package instructions until al dente.",
+      "Meanwhile, add tomato paste to skillet and cook, stirring, until darkened, about 1 minute. Add 1 cup water, Worcestershire, ½ teaspoon pepper and ½ teaspoon salt and simmer until slightly reduced, about 5 minutes.",
+      "Using tongs, transfer pasta directly from the pot to the skillet along with 1 cup pasta water. Increase heat to high and simmer vigorously, tossing, until sauce reduces and coats the pasta, about 2 minutes. Season to taste with salt and pepper. Serve with Parmesan."
+    ]
   }
 ]
