@@ -110,5 +110,27 @@
       "Toast the bread slices until golden brown. Place the scrambled eggs on one slice of bread and top with your favorite toppings. Place the other slice of bread on top to make a sandwich.",
       "Cut the sandwich in half and serve immediately. Enjoy!"
     ]
+  },
+  {
+    "id": 6,
+    "title": "Tuna Salad",
+    "description": "This classic tuna salad recipe is quick and easy to make, and perfect for a light and healthy meal. It's great for sandwiches, salads, or as a dip with crackers or veggies.",
+    "image": "tuna-salad.jpg",
+    "ingredients": [
+      "2 cans of tuna, drained",
+      "1/2 cup of mayonnaise",
+      "1/4 cup of chopped celery",
+      "1/4 cup of chopped red onion",
+      "1 tablespoon of lemon juice",
+      "1 teaspoon of dijon mustard",
+      "Salt and pepper to taste",
+      "Optional: chopped pickles, capers, or fresh herbs"
+    ],
+    "steps": [
+      "In a medium bowl, combine the drained tuna, mayonnaise, celery, red onion, lemon juice, dijon mustard, salt, and pepper. Mix well to combine.",
+      "Taste the tuna salad and adjust the seasoning as needed. Add more mayonnaise, lemon juice, mustard, salt, or pepper to taste.",
+      "If desired, stir in chopped pickles, capers, or fresh herbs for extra flavor and texture.",
+      "Serve the tuna salad on bread for sandwiches, on a bed of lettuce for a salad, or as a dip with crackers or veggies. Enjoy!"
+    ]
   }
 ]
