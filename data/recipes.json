@@ -90,5 +90,25 @@
       "Heat the mixture over low heat, stirring occasionally, until the sugar and salt have dissolved.",
       "Remove the saucepan from the heat and let the vinegar cool to room temperature before using it to season sushi rice."
     ]
+  },
+  {
+    "id": 5,
+    "title": "Egg Sandwich",
+    "description": "This is a simple and delicious egg sandwich recipe that is perfect for breakfast or lunch. It's quick and easy to make, and you can customize it with your favorite ingredients.",
+    "image": "egg-sandwich.jpg",
+    "ingredients": [
+      "2 large eggs",
+      "2 slices of bread",
+      "1 tablespoon of butter",
+      "Salt and pepper to taste",
+      "Optional: cheese, bacon, ham, avocado, tomato, lettuce, or any other toppings you like"
+    ],
+    "steps": [
+      "In a small bowl, beat the eggs with a fork until well mixed. Season with salt and pepper to taste.",
+      "Heat a non-stick skillet over medium heat and add the butter. Once the butter has melted, pour in the beaten eggs.",
+      "Cook the eggs, stirring occasionally, until they are scrambled and cooked through. Remove from heat.",
+      "Toast the bread slices until golden brown. Place the scrambled eggs on one slice of bread and top with your favorite toppings. Place the other slice of bread on top to make a sandwich.",
+      "Cut the sandwich in half and serve immediately. Enjoy!"
+    ]
   }
 ]
