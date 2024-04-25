@@ -132,5 +132,23 @@
       "If desired, stir in chopped pickles, capers, or fresh herbs for extra flavor and texture.",
       "Serve the tuna salad on bread for sandwiches, on a bed of lettuce for a salad, or as a dip with crackers or veggies. Enjoy!"
     ]
+  },
+  {
+    "id": 7,
+    "title": "Prison Wine (Pruno)",
+    "description": "This recipe is for a homemade wine that can be made in prison or at home. It is made with fruit, sugar, and water, and fermented with yeast. It is a simple and easy recipe that produces a strong and sweet wine that is perfect for sipping or mixing in cocktails.",
+    "image": "prison-wine.jpg",
+    "ingredients": [
+      "2 cups of fruit (such as oranges, apples, or raisins)",
+      "2 cups of sugar",
+      "1 gallon of water",
+      "1 packet of yeast"
+    ],
+    "steps": [
+      "Wash and chop the fruit into small pieces. Place the fruit in a large container with the sugar and water. Stir to dissolve the sugar.",
+      "Add the yeast to the fruit mixture and stir to combine. Cover the container with a clean cloth or towel and let it sit in a warm, dark place for 7-10 days.",
+      "After 7-10 days, strain the fruit mixture through a fine mesh strainer or cheesecloth to remove the solids. Transfer the liquid to clean bottles or jars and let it sit for an additional 2-4 weeks to ferment and clarify.",
+      "Once the wine has fermented and clarified, it is ready to drink. Serve it chilled or at room temperature, and enjoy!"
+    ]
   }
 ]
