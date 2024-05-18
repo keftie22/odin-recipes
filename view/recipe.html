@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="/view/css/normalize.css" />
@@ -9,6 +9,12 @@
       type="text/javascript"
       src="/model/libs/ajax_1_6_2_min.js"
     ></script>
+    <script>
+      fetch("/view/navbar.html")
+        .then((response) => response.text())
+        .then((navbar) => {document.querySelector("#navbar-div").innerHTML = navbar;
+        });
+    </script>
     <script>
       const url = new URL(window.location.toLocaleString());
       const recipeId = url.searchParams.get("id");
@@ -31,6 +37,7 @@
     </script>
   </head>
   <body>
+    <div id="navbar-div"></div>
     <script>
       document.write("<h1>" + data.title + "</h1>");
       //image + description

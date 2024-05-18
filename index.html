@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="/view/css/normalize.css" />
@@ -10,9 +10,15 @@
       src="/model/libs/ajax_1_6_2_min.js"
     ></script>
     <title>Odin Recipes</title>
+    <script>
+      fetch("/view/navbar.html")
+        .then((response) => response.text())
+        .then((navbar) => {document.querySelector("#navbar-div").innerHTML = navbar;
+        });
+    </script>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
+    <div id="navbar-div"></div>
     <script>
       //display list of titles of recipes from data/recipes.json
       $(function () {
