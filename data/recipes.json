@@ -74,5 +74,81 @@
       "Meanwhile, add tomato paste to skillet and cook, stirring, until darkened, about 1 minute. Add 1 cup water, Worcestershire, ½ teaspoon pepper and ½ teaspoon salt and simmer until slightly reduced, about 5 minutes.",
       "Using tongs, transfer pasta directly from the pot to the skillet along with 1 cup pasta water. Increase heat to high and simmer vigorously, tossing, until sauce reduces and coats the pasta, about 2 minutes. Season to taste with salt and pepper. Serve with Parmesan."
     ]
+  },
+  {
+    "id": 4,
+    "title": "Sushi Vinegar",
+    "description": "This is a recipe for 1 cup of sushi vinegar. You can use this vinegar to season 3 cups of sushi rice. Quantities can be adjusted proportionally.",
+    "image": "sushi-vinegar.jpg",
+    "ingredients": [
+      "1/3 cup sugar",
+      "2/3 cup rice vinegar",
+      "1 tablespoon of salt"   
+    ],
+    "steps": [
+      "Combine the sugar, rice vinegar, and salt in a small saucepan.",
+      "Heat the mixture over low heat, stirring occasionally, until the sugar and salt have dissolved.",
+      "Remove the saucepan from the heat and let the vinegar cool to room temperature before using it to season sushi rice."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Egg Sandwich",
+    "description": "This is a simple and delicious egg sandwich recipe that is perfect for breakfast or lunch. It's quick and easy to make, and you can customize it with your favorite ingredients.",
+    "image": "egg-sandwich.jpg",
+    "ingredients": [
+      "2 large eggs",
+      "2 slices of bread",
+      "1 tablespoon of butter",
+      "Salt and pepper to taste",
+      "Optional: cheese, bacon, ham, avocado, tomato, lettuce, or any other toppings you like"
+    ],
+    "steps": [
+      "In a small bowl, beat the eggs with a fork until well mixed. Season with salt and pepper to taste.",
+      "Heat a non-stick skillet over medium heat and add the butter. Once the butter has melted, pour in the beaten eggs.",
+      "Cook the eggs, stirring occasionally, until they are scrambled and cooked through. Remove from heat.",
+      "Toast the bread slices until golden brown. Place the scrambled eggs on one slice of bread and top with your favorite toppings. Place the other slice of bread on top to make a sandwich.",
+      "Cut the sandwich in half and serve immediately. Enjoy!"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Tuna Salad",
+    "description": "This classic tuna salad recipe is quick and easy to make, and perfect for a light and healthy meal. It's great for sandwiches, salads, or as a dip with crackers or veggies.",
+    "image": "tuna-salad.jpg",
+    "ingredients": [
+      "2 cans of tuna, drained",
+      "1/2 cup of mayonnaise",
+      "1/4 cup of chopped celery",
+      "1/4 cup of chopped red onion",
+      "1 tablespoon of lemon juice",
+      "1 teaspoon of dijon mustard",
+      "Salt and pepper to taste",
+      "Optional: chopped pickles, capers, or fresh herbs"
+    ],
+    "steps": [
+      "In a medium bowl, combine the drained tuna, mayonnaise, celery, red onion, lemon juice, dijon mustard, salt, and pepper. Mix well to combine.",
+      "Taste the tuna salad and adjust the seasoning as needed. Add more mayonnaise, lemon juice, mustard, salt, or pepper to taste.",
+      "If desired, stir in chopped pickles, capers, or fresh herbs for extra flavor and texture.",
+      "Serve the tuna salad on bread for sandwiches, on a bed of lettuce for a salad, or as a dip with crackers or veggies. Enjoy!"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Prison Wine (Pruno)",
+    "description": "This recipe is for a homemade wine that can be made in prison or at home. It is made with fruit, sugar, and water, and fermented with yeast. It is a simple and easy recipe that produces a strong and sweet wine that is perfect for sipping or mixing in cocktails.",
+    "image": "prison-wine.jpg",
+    "ingredients": [
+      "2 cups of fruit (such as oranges, apples, or raisins)",
+      "2 cups of sugar",
+      "1 gallon of water",
+      "1 packet of yeast"
+    ],
+    "steps": [
+      "Wash and chop the fruit into small pieces. Place the fruit in a large container with the sugar and water. Stir to dissolve the sugar.",
+      "Add the yeast to the fruit mixture and stir to combine. Cover the container with a clean cloth or towel and let it sit in a warm, dark place for 7-10 days.",
+      "After 7-10 days, strain the fruit mixture through a fine mesh strainer or cheesecloth to remove the solids. Transfer the liquid to clean bottles or jars and let it sit for an additional 2-4 weeks to ferment and clarify.",
+      "Once the wine has fermented and clarified, it is ready to drink. Serve it chilled or at room temperature, and enjoy!"
+    ]
   }
 ]
